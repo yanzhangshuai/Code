@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <RootNamespace>abp_demo2.UserCenter.Application</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\abp-demo2.UserCenter.Domain\abp-demo2.UserCenter.Domain.csproj" />
+    </ItemGroup>
+
+</Project>

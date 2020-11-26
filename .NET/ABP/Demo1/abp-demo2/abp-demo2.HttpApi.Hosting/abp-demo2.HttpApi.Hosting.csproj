@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <RootNamespace>abp_demo2.HttpApi.Hosting</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\abp-demo2.UserCenter.EntityFrameworkCore\abp-demo2.UserCenter.EntityFrameworkCore.csproj" />
+      <ProjectReference Include="..\abp-demo2.UserCenter.HttpApi\abp-demo2.UserCenter.HttpApi.csproj" />
+    </ItemGroup>
+
+</Project>
